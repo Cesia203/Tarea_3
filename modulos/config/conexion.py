@@ -7,7 +7,7 @@ def obtener_conexion():
             host='bdysaau7gogcrbesf2xx-mysql.services.clever-cloud.com',
             user='unhgpm3iludainnk',
             password='j3RyxGCrK83QxoJReUm2',
-            database='j3RyxGCrK83QxoJReUm2',
+            database='bdysaau7gogcrbesf2xx',
             port=3306
         )
         if conexion.is_connected():
