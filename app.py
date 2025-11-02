@@ -1,4 +1,4 @@
-
+n
 # app.py
 import streamlit as st
 from modulos.login import login
@@ -11,7 +11,7 @@ seleccion = st.sidebar.selectbox("Selecciona una opción", opciones)
 
 # Según la opción seleccionada, mostramos el contenido correspondiente
 if seleccion == "Ventas":
-    mostrar_venta()
+    mostrar_bienvenido()
 
 elif seleccion == "Otra opción":
     st.write("Has seleccionado otra opción.")  
